@@ -22,5 +22,7 @@ public class cha07_ArithmeticOperators {
         System.out.println("your divison  is " +div);
         System.out.println("your modulo is " +mod);
 
+
+
     }
 }
