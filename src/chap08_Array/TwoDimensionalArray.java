@@ -6,7 +6,7 @@ public class TwoDimensionalArray {
 //        int [][] myArr = new int[2][3];
 //        myArr[1][2] =9;
        int arr[][]= {{1,2,3},{3,4,5}};
-//        System.out.println(arr[0].length);
+        System.out.println(arr[0].length);
 //        traversal method
         int i = 0;
         while (i< arr.length){
