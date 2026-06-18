@@ -2,7 +2,7 @@ package Challenges;
 
 import chap08_Array.Arrayutility;
 
-public class ArraysumAverage {
+public class cha34_ArraysumAverage {
     static void main(String[] args) {
         System.out.println("welcome to the array of Sum and Average");
         int[] numArray = Arrayutility.inputArray();
