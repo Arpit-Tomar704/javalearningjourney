@@ -5,7 +5,7 @@ import chap08_Array.Arrayutility;
 
 import java.util.Scanner;
 
-public class cha41_Search2DArray {
+public class cha42_Search2DArray {
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("welcome to 2D search \n");
