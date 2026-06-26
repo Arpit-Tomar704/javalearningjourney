@@ -33,8 +33,8 @@ public class car {
 
 
     }
-    public void addfuel(float fuel ){
-        currentfuelinlitre += fuel;
+    public void addfuel(float currentfuelinlitre ){
+        this .currentfuelinlitre += currentfuelinlitre;
     }
 
     public float getCurrentfuellevel () {
