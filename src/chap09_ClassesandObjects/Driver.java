@@ -3,7 +3,14 @@ package chap09_ClassesandObjects;
 public class Driver {
     static int minAgeforDriving = 18;
     String  name;
+    int age;
     String Dateoflicence;
+
+    public boolean isAllowedtoDrive(){
+        return  this.age>=minAgeforDriving;
+    }
+
+
 
     static void main(String[] args) {
 //        car mycar = new car();
