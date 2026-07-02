@@ -26,7 +26,7 @@ public class Driver {
          swift.start().drive();
 
          Driver myDriver = new Driver();
-         myDriver.Dateoflicence = "28/JUN/2026";
+         myDriver.Dateoflicence = "01/JUN/2026";
         System.out.println(minAgeforDriving);
 
     }
