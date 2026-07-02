@@ -2,12 +2,9 @@ package chap09_ClassesandObjects;
 
 public class car {
     int noofwheels;
-
     int numoftyre;
-
     float maxspeed;
     float addfuel;
-
     float currentfuelinlitre;
 
     public car start(){
