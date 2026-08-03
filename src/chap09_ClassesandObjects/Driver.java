@@ -21,13 +21,15 @@ public class Driver {
 //        mycar.addfuel(2);
 //        mycar.drive();
 //        System.out.println(mycar.currentfuelinlitre);
-         car swift = new car();
-         swift.addfuel(6);
+        car swift = new car("Red");
+         car thar = new car();
+//         swift.addfuel( 6);
          swift.start().drive();
+        System.out.println(swift.colour);
 
-         Driver myDriver = new Driver();
-         myDriver.Dateoflicence = "01/JUN/2026";
-        System.out.println(minAgeforDriving);
+//         Driver myDriver = new Driver();
+//         myDriver.Dateoflicence = "01/JUN/2026";
+//        System.out.println(minAgeforDriving);
 
     }
 }
