@@ -8,7 +8,7 @@ public class Switch {
         System.out.println("welcome to Day of the week Detector\n");
         System.out.println("Enter your day in number: ");
         int day = input.nextInt();
-        //oldSwitch(day);
+        // oldSwitch(day);
         newSwitch(day);
 
 
