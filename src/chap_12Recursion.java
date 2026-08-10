@@ -11,6 +11,16 @@ class Recursion {
 
      }
      public static  long factorial(int num){
+         System.out.print("function called for: " +num);
+         if(num==1){
+             return 1;
+         }
+         return num*factorial(num-1);
+     }
+
+
+
+     public static  long factorialliterative(int num){
         long result =1;
         for (int i =1;i<=num;i++) {
             result *= i;
