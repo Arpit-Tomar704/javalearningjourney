@@ -16,9 +16,8 @@ public class Car {
     public double getFuelLevel() {
         return fuelLevel;
     }
-    
-
     public void setFuelLevel(double fuelLevel) {
+
         this.fuelLevel = fuelLevel;
     }
 
