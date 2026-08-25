@@ -6,6 +6,12 @@ public class Car extends Vehicle{
 
 
     public Car() {
-        super(4);
+         super(4);
+    }
+
+    @Override
+    public void makeStartSound() {
+        System.out.println("brwwww...");
+
     }
 }
