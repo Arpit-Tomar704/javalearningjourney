@@ -1,7 +1,7 @@
 package Challenges74;
 
 public class LibraryItem {
-    private String itemId;
+    String itemId;
     private String title;
     private String author;
      public void checkout(){
