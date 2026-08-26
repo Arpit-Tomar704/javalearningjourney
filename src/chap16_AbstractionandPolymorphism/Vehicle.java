@@ -1,8 +1,15 @@
 package chap16_AbstractionandPolymorphism;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements Transport {
     private int nooftires;
 
+    public abstract void makeStartSound();
+
+    @Override
+    public void getSetGo() {
+        System.out.println("going to place...");
+
+    }
 
     public   Vehicle(int nooftires) {
         this.nooftires = nooftires;
@@ -17,6 +24,6 @@ public abstract class Vehicle {
     }
 
     public  void commute(){
-        System.out.println(")going...");
+        System.out.println("going...");
     }
 }
