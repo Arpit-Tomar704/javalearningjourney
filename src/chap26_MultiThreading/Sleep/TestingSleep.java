@@ -6,7 +6,6 @@ public class TestingSleep {
         Thread.sleep(10000);
         System.out.println("woke up");
         Thread.yield();
-        
 
     }
 }
